@@ -1,0 +1,4 @@
+APOLLO_KEY=service:odyssey-cats-u0xe3p:JQ7pbHEpri2fIMK43i_dmw \
+  rover subgraph publish odyssey-cats-u0xe3p@current \
+  --name products --schema ./products-schema.graphql \
+  --routing-url http://products.prod.svc.cluster.local:4001/graphql
